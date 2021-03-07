@@ -47,7 +47,7 @@ function calculateResult(calculationType) {
         currentResult += enteredNumber;
         mathOperator = '+'
     } else if (calculationType === 'subtract') {
-        currentResult += enteredNumber;
+        currentResult -= enteredNumber;
         mathOperator = '-'
     } else if (calculationType === 'multiply') {
         currentResult *= enteredNumber;
